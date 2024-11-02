@@ -70,16 +70,19 @@ ___
 **1. Agrupación de Conceptos:**
 
    ❖ Los síntomas en **props** representan un conjunto de condiciones necesarias y suficientes para cada diagnóstico, permitiendo así organizar el conocimiento en categorías de síntomas interdependientes.
+
    ❖ Las condiciones se estructuran de modo que los diagnósticos más específicos y complejos aparezcan después de evaluar opciones más simples (ej., verificar carga de la batería antes de sugerir cambios en el motor de arranque).
 
 **2. Jerarquización de Reglas:**
 
    ❖ La jerarquía dentro de la base de conocimiento se organiza con diagnósticos de baja complejidad (cargar batería) primero y diagnósticos de alta complejidad (reparar el distribuidor) después.
+
    ❖ Esto permite una búsqueda progresiva y mejora la eficiencia del sistema al resolver primero posibles causas simples antes de proceder a diagnósticos complejos.
 
 **3. Interrelación de Reglas y Síntomas:**
 
    ❖ Los síntomas se agrupan en conjuntos de condiciones mutuamente excluyentes, como síntomas relacionados con la carga de la batería y los fusibles, que definen caminos únicos de diagnóstico.
+   
    ❖ La estructura modular permite que el sistema experto agregue nuevos diagnósticos en el futuro sin modificar la lógica del motor de inferencia, solo ajustando o añadiendo nuevas entradas JSON.
 
 ___
