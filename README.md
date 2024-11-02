@@ -1,23 +1,5 @@
-# sistema-experto-python
-Sistema experto en Python
 
-## Instalación
-
-Utilizar [`pipenv`](https://pipenv.pypa.io)
-
-```bash
-pipenv install
-```
-
-## Ejecutar
-
-```bash
-pipenv run main.py
-```
-
-
----------------------------------------------------------------------------
-![Politecnico](https://github.com/Alemac22/INDICE-DE-ENTORNO-DE-CALIDAD-DE-VIDA/blob/main/reports/figures/Politecnico.jpg)
+![Politecnico](https://github.com/Alemac22/Diagnostico-Automotriz/blob/main/Imagenes/Politecnico.jpg)
 
  **Carrera:** Tecnicatura Superior en Ciencia de Datos e Inteligencia Artificial.
 
@@ -51,14 +33,14 @@ inferencia.
 **1. Representación del Conocimiento:**
 
    ❖ La base de conocimiento se organiza en un archivo JSON, 
-estructurado en forma de entradas de diagnóstico. Cada entrada 
-incluye:
+      estructurado en forma de entradas de diagnóstico. Cada entrada 
+      incluye:
 
       ➢ name: Nombre del diagnóstico o acción a ejecutar.
       ➢ description: Descripción detallada de los síntomas o 
-razones que llevan a ese diagnóstico.
+         razones que llevan a ese diagnóstico.
       ➢ props: Lista de síntomas o propiedades relevantes que 
-      definen las condiciones para llegar al diagnóstico.
+         definen las condiciones para llegar al diagnóstico.
    ❖ Este formato JSON facilita la organización jerárquica y la 
       reutilización de conocimiento, permitiendo que cada entrada sea 
       una combinación de síntomas únicos.
@@ -143,3 +125,4 @@ conocimiento actual.
 Esta organización y lógica garantizan que el sistema responda eficazmente, 
 adaptándose a nuevos síntomas o diagnósticos y permitiendo una evolución 
 constante de la base de conocimiento
+
