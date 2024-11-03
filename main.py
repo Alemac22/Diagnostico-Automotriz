@@ -69,6 +69,6 @@ def siguiente_pregunta():
 
 # uvicorn main:app --reload
 
-# cd frnntend
+# cd frontend
 # cd frontend
 # npm start

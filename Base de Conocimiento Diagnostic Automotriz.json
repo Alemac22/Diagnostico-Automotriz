@@ -3,10 +3,16 @@
   "description": "Base de conocimiento Diagnostico Automotriz",
   "entries": [
     {
+      "name": "ENJOY THE JOURNEY",
+      "description": "Si el auto arranca disfruta el viaje ",
+      "props": [
+        "El Auto Arranca"
+      ]
+    },
+    {
       "name": "Reemplazar la bomba de nafta",
       "description": "Si el auto no arranca, el motor gira, los cables de bujia tienen chispa y tiene nafta. Reemplazar la bomba de nafta",
       "props": [
-        "El auto arranca",
         "El motor gira",
         "Los cables de bujia tienen chispa",
         "Tiene nafta"
@@ -16,47 +22,29 @@
       "name": "Cargar nafta",
       "description": "Si el auto no arranca, el motor gira, los cables de bujia tienen chispa y no tiene nafta. Cargar nafta",
       "props": [
-        "El auto arranca",
         "El motor gira",
-        "Los cables de bujia tienen chispa",
-        "No tiene nafta"
+        "Los cables de bujia tienen chispa"
       ]
     },
     {
       "name": "Reparar el distribuidor",
       "description": "Si el auto no arranca, el motor gira, los cables de bujia no tienen chispa y la bobina funciona. Reparar el distribuidor",
       "props": [
-        "El auto arranca",
         "El motor gira",
-        "Los cables de bujia tienen chispa",
-        "La bobina funciona"
+        "Funciona la bobina"
       ]
     },
     {
       "name": "Reemplazar la bobina",
       "description": "Si el auto no arranca, el motor gira, los cables de bujia no tienen chispa y la bobina no funciona. Reemplazar la bobina",
       "props": [
-        "El auto arranca",
-        "El motor gira",
-        "Los cables de bujia tienen chispa",
-        "La bobina no funciona"
-      ]
-    },
-    {
-      "name": "Cargar la bateria",
-      "description": "Si el auto no arranca, el motor no gira y no tiene carga la bateria. Cargar la bateria",
-      "props": [
-        "El auto arranca",
-        "El motor gira",
-        "La bateria tiene carga"
+        "El motor gira"
       ]
     },
     {
       "name": "Limpiar los bornes de bateria",
       "description": "Si el auto no arranca, el motor no gira, tiene carga la bateria y los bornes de bateria estan sucios. Limpiar los bornes de bateria",
       "props": [
-        "El auto arranca",
-        "El motor gira",
         "La bateria tiene carga",
         "Los bornes de bateria sucios"
       ]
@@ -65,10 +53,7 @@
       "name": "Reemplazar los fusibles",
       "description": "Si el auto no arranca, el motor no gira, tiene carga la bateria y los bornes de bateria no estan sucios. Reemplazar los fusibles",
       "props": [
-        "El auto arranca",
-        "El motor gira",
         "La bateria tiene carga",
-        "Los bornes de bateria estan sucios",
         "Los fusibles estan quemados"
       ]
     },
@@ -76,11 +61,7 @@
       "name": "Reemplazar bendix",
       "description": "Si el auto no arranca, el motor no gira, tiene carga la bateria, los bornes de bateria no estan sucios, los fusibles no estan quemados y el motor de arranque gira. Reemplazar bendix",
       "props": [
-        "El auto arranca",
-        "El motor gira",
         "La bateria tiene carga",
-        "Los bornes de bateria estan sucios",
-        "Los fusibles estan quemados",
         "EL motor de arranque gira"
       ]
     },
@@ -88,13 +69,14 @@
       "name": "Revisar carbones y bobinados",
       "description": "Si el auto no arranca, el motor no gira, tiene carga la bateria, los bornes de bateria no estan sucios, los fusibles no estan quemados y el motor de arranque no gira. Revisar carbones y bobinados",
       "props": [
-        "El auto arranca",
-        "El motor gira",
-        "La bateria tiene carga",
-        "Los bornes de bateria estan sucios",
-        "Los fusibles estan quemados",
-        "EL motor de arranque gira"
+        "La bateria tiene carga"
       ]
-    }
+    },
+    {
+      "name": "Cargar la bateria",
+      "description": "Si el auto no arranca, el motor no gira y no tiene carga la bateria. Cargar la bateria",
+      "props": [
+      ]
+    }    
   ]
 }

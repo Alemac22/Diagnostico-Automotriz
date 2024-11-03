@@ -55,7 +55,7 @@ class ConsultarBase(tk.Frame):
             reason = f"Sugerido porque:\n"
             for prop in engine.result.properties:
                 reason += f"- {prop.name}\n"
-            messagebox.showinfo("Tipo de Delito",
+            messagebox.showinfo("Diagnostico",
                                 f"estado: {engine.result.name}\n\n{engine.result.description}\n\n" + reason)
 
         self.master.destroy()
