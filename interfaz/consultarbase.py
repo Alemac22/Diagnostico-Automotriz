@@ -23,7 +23,7 @@ class ConsultarBase(tk.Frame):
 
         self.btn_no = tk.Button(self, text="No", width=20, command=self._send_no)
         self.btn_no.pack(side="right", padx=5, pady=5)
-        
+
         self.pack()
         self.questions = engine.generate()
         self._get_question(Response.NO)
@@ -55,7 +55,7 @@ class ConsultarBase(tk.Frame):
             reason = f"Sugerido porque:\n"
             for prop in engine.result.properties:
                 reason += f"- {prop.name}\n"
-            messagebox.showinfo("Recomendación",
-                                f"Se recomienda: {engine.result.name}\n\n{engine.result.description}\n\n" + reason)
+            messagebox.showinfo("Tipo de Delito",
+                                f"estado: {engine.result.name}\n\n{engine.result.description}\n\n" + reason)
 
         self.master.destroy()

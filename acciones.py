@@ -1,12 +1,17 @@
 """
-Interfaz de consola
+Interfaz de consola y funciones de manejo de la base de conocimientos
 """
 from experto_general.engine import Engine
-from tkinter import messagebox
 
 # Motor como variable global
 engine = Engine()
 
+# Carga la base de conocimientos desde "Base de Conocimiento Diagnostic Automotriz.json" 
+try:
+    engine.base.from_json("Base de Conocimiento Diagnostic Automotriz.json")
+    print("Base de conocimientos 'Base de Conocimiento Diagnostic Automotriz.json' cargada exitosamente.")
+except Exception as e:
+    print(f"Error al cargar la base de conocimientos: {e}")
 
 def insertar(nombre, prop):
     if nombre and prop:
@@ -14,29 +19,30 @@ def insertar(nombre, prop):
         entry.get_or_add_prop(prop)
         print(f"Entrada agregada: {entry}")
     else:
-        print("No se admiten vacíos")
-        messagebox.showinfo(message="No se admiten valores vacíos", title="Aviso")
-
+        print("No se admiten valores vacíos")
 
 def get_base_entries():
     return engine.base.entries
 
-
 def guardar(entrada):
+    """
+    Guarda la base de conocimientos en un archivo JSON especificado
+    """
     if entrada:
         engine.base.to_json(entrada.strip())
-        messagebox.showinfo(message="El archivo fue guardado con éxito", title="Guardado")
+        print("El archivo fue guardado con éxito")
     else:
-        messagebox.showinfo(message="Elige un nombre para el archivo", title="Guardado")
-
+        print("Elige un nombre para el archivo")
 
 def cargar(entrada):
+    """
+    Carga la base de conocimientos desde un archivo JSON especificado
+    """
     if entrada:
         try:
             engine.base.from_json(entrada.strip())
-            messagebox.showinfo(message="El archivo fue cargado con éxito", title="Cargado")
+            print("El archivo fue cargado con éxito")
         except KeyError:
-            messagebox.showinfo(message="Archivo inválido o con formato incorrecto", title="Cargado")
-
+            print("Archivo inválido o con formato incorrecto")
     else:
-        messagebox.showinfo(message="Elige un nombre del archivo a cargar", title="Guardado")
+        print("Elige un nombre del archivo a cargar")
