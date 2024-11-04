@@ -94,9 +94,10 @@ El motor de inferencia compara la lista acumulada de **positive_symptoms** con *
 Esta organización y lógica garantizan que el sistema responda eficazmente, adaptándose a nuevos síntomas o diagnósticos y permitiendo una evolución constante de la base de conocimiento.
 
 
-Este sistema experto, desarrollado en **Python**, permite el diagnóstico remoto de problemas en el sistema de arranque de vehículos, utilizando **FastAPI** para el backend y **React** para el frontend.
 
 ## Instrucciones de Instalación y Puesta en Marcha
+
+Este sistema experto, desarrollado en **Python**, permite el diagnóstico remoto de problemas en el sistema de arranque de vehículos, utilizando **FastAPI** para el backend y **React** para el frontend.
 
 Sigue los pasos a continuación para configurar y ejecutar el sistema experto de diagnóstico automotriz. 
 
@@ -197,4 +198,3 @@ cd DIAGNOSTICO AUTOMOTRIZ
 Siguiendo estos pasos, deberías lograr configurar y ejecutar el sistema experto de diagnóstico automotriz correctamente. Revisa cada paso y asegúrate de que los entornos de backend y frontend estén configurados adecuadamente para evitar problemas durante la instalación.
 ```
 
-Copia y pega este contenido en el archivo `README.md` y tendrá el formato correcto para GitHub u otros visores de Markdown.
