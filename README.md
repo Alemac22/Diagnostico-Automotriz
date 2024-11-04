@@ -196,5 +196,5 @@ cd DIAGNOSTICO AUTOMOTRIZ
 ---
 
 Siguiendo estos pasos, deberías lograr configurar y ejecutar el sistema experto de diagnóstico automotriz correctamente. Revisa cada paso y asegúrate de que los entornos de backend y frontend estén configurados adecuadamente para evitar problemas durante la instalación.
-```
+
 
