@@ -93,7 +93,7 @@ El motor de inferencia compara la lista acumulada de **positive_symptoms** con *
 
 Esta organización y lógica garantizan que el sistema responda eficazmente, adaptándose a nuevos síntomas o diagnósticos y permitiendo una evolución constante de la base de conocimiento.
 
-
+___
 
 ## Instrucciones de Instalación y Puesta en Marcha
 
