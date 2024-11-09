@@ -14,7 +14,7 @@ class Interfaz(tk.Frame):
         self.master = root
         self.pack()
 
-        self.lbl_base = tk.Label(self, text= "Sistema Experto Diagnostico Automotriz")
+        self.lbl_base = tk.Label(self, text= "S.E. Diagnostico Automotriz")
         self.lbl_base.pack(side="top")
         self.lbl_base.config(font=("Helvetica", 24))
 
