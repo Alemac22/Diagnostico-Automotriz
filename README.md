@@ -198,3 +198,4 @@ cd DIAGNOSTICO AUTOMOTRIZ
 Siguiendo estos pasos, deberías lograr configurar y ejecutar el sistema experto de diagnóstico automotriz correctamente. Revisa cada paso y asegúrate de que los entornos de backend y frontend estén configurados adecuadamente para evitar problemas durante la instalación.
 
 
+**Video Presentacion:**  ![VIDEO](https://github.com/Alemac22/Diagnostico-Automotriz/blob/main/Presentacion%20S.E..mp4)
